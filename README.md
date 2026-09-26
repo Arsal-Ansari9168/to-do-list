@@ -1,4 +1,4 @@
-# To-Do List - Second Project
+# To-Do List - Project
 
 ## 📌 Description
 
