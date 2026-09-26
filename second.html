@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Advanced To-Do Dashboard</title>
+<link rel="stylesheet" href="second.css">
+</head>
+
+<body>
+
+<!-- Sidebar -->
+<div class="sidebar">
+    <h2>Taskify</h2>
+    <button onclick="filterTask('all')">All Tasks</button>
+    <button onclick="filterTask('pending')">Pending</button>
+    <button onclick="filterTask('completed')">Completed</button>
+</div>
+
+<!-- Main -->
+<div class="main">
+    <div class="header">
+        <h2>Good Morning 👋</h2>
+    </div>
+
+    <div class="task-box">
+        <div class="input-section">
+            <input id="taskInput" placeholder="Add task...">
+            <button class="add-btn" onclick="addTask()">Add</button>
+        </div>
+
+        <ul id="taskList"></ul>
+    </div>
+</div>
+
+<!-- Right Panel -->
+<div class="right">
+    <div class="card">
+        <h3>Total Tasks</h3>
+        <p id="total">0</p>
+    </div>
+
+    <div class="card">
+        <h3>Completed</h3>
+        <p id="completed">0</p>
+    </div>
+
+    <div class="card">
+        <h3>Pending</h3>
+        <p id="pending">0</p>
+    </div>
+</div>
+
+<script src="second.js"></script>
+
+</body>
+</html>
